@@ -1,7 +1,11 @@
-
 library(sceasy)
 
 args <- commandArgs(trailingOnly = TRUE)
+
+# Check if a file path is provided as a command-line argument
+if (length(args) < 1) {
+  stop("Please provide a file path as a command-line argument.")
+}
 
 # Extract the file path from the command-line argument
 file_path <- args[1]
