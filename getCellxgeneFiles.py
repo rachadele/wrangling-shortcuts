@@ -15,7 +15,7 @@ from src.utils.config import set_api_access_config
 set_api_access_config()
 
 #replace colluction_uuid with desired uuid(s)
-collection_ids=['collection_uuid']
+collection_ids=[collection_uuid]
 
 #initialize empy list for 'collections', which we will pass to get_dataset to get download links
 #see curation-api/python/src/dataset.py for reference
