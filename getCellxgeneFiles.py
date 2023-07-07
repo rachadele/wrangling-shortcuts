@@ -1,5 +1,5 @@
 #shortcut to download select collections from cellxgene
-#clone repo Lattice-Data/lattice-tools/notebooks/curation-api
+#clone repo https://github.com/chanzuckerberg/single-cell-curation.git
 #to run this, cd to single-cell-curation/notebooks/curation-api/python/
 
 from src.dataset import (
