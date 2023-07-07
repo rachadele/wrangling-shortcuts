@@ -1,6 +1,6 @@
 #shortcut to download select collections from cellxgene
 #clone repo Lattice-Data/lattice-tools/notebooks/curation-api
-#to run this, cd to lattice-tools/notebooks/curation-api/python/
+#to run this, cd to /hive/data/outside/geo/single-cell-curation/notebooks/curation-api/python/
 
 from src.dataset import (
     download_assets,
